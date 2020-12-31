@@ -1,19 +1,11 @@
-import React, { Component } from 'react';
+import React, { useState} from 'react';
 
-
-const trivia = ["What city does LeBron james play in?", "In what division are the Dallas Mavericks?"," What team played in Oakland and now plays in San Francisco?"]
-console.log(trivia);
-class Questions extends Component {
-    render() {
-        return (
-            <div>
-                <p>{trivia[0]}</p>
-                <p>{trivia[1]}</p>
-                <p>{trivia[2]}</p>
-
-            </div>
-        );
-    }
-}
+const Questions = ({id, question}) => {
+    return (
+        <div>
+            <h4>{question}</h4>
+        </div>
+    );
+};
 
 export default Questions;
