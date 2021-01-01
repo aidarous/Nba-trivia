@@ -18,6 +18,10 @@ const trivia = [
     {
         id:3,
         question:"What team played in Oakland and now plays in San Francisco?",
+        choice1:"Golden State Warriors",
+        choice2:"Sacramento Kings",
+        choice3:"Houston Rockets",
+        choice4:"Utah Jazz",
     }, 
     {
         id:4,
