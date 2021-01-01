@@ -26,6 +26,10 @@ const trivia = [
     {
         id:4,
         question:"In what year was Kristaps Porzingis drafted?",
+        choice1:"2005",
+        choice2:"2015",
+        choice3:"2016",
+        choice4:"1997",
     },
     {
         id:5,
