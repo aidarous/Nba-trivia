@@ -11,7 +11,7 @@ const [trivia, setTrivia] = useState(data);
      <h1>Welcome to NBA trivia </h1>
      <div className="container">
      {trivia.map((question) =>{
-        return <Questions key={question.id} {... question} />
+        return <Questions key={question.id} {... question}  />
       })}
      </div>
      
