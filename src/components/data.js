@@ -34,6 +34,10 @@ const trivia = [
     {
         id:5,
         question:"Which player won 6 championships with the Chicago Bulls?",
+        choice1:"Michael Jordan",
+        choice2:"LeBron James",
+        choice3:"Jason Kidd",
+        choice4:"Carmelo Anthony",
     },
 ];
 
